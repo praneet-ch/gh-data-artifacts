@@ -30,7 +30,7 @@ jobs:
         with:
           name: dev-files
           path: |
-            dev
+            dist
             package.json
   deploy:
     needs: build
