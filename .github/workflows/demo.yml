@@ -41,6 +41,6 @@ jobs:
         with:
           name: dev-files
       - name: output artifacts
-        run: ls
+        run: ls -R dist
       - name: deploy artifacts
         run: echo "Deploying... "
